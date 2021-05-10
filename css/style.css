@@ -94,6 +94,18 @@ body {
     padding: 10px;
 }
 
+.contact,
+.email,
+.phone  {
+    text-decoration: none;
+    color: white;
+} 
+
+.social {
+    width: 50px;
+    height: auto;
+}
+
 
 @media (min-width: 768px) {
     /* html,

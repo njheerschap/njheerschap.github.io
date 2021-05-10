@@ -34,21 +34,23 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <div class="d-flex justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item text-center">
+                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -88,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="m-4 px-md-3 px-lg-5 text-center">
+            <div class="m-4 px-md-3 px-lg-5 text-center" id="portfolio">
                 <h2 class="pb-3">Portfolio</h2>
                 <!-- Slider main container -->
                 <div class="swiper-container mySwiper">
@@ -148,18 +150,31 @@
                 </div>
             </div>
 
-            <div class="card bg-primary w-75 mx-auto">
+            <div class="card bg-primary w-md-50 w-75 mx-auto mb-3" id="contact">
                 <div class="card-body text-center">
-                    <p>Contact</p>
-                    <p>Email: njheerschap@gmail.com</p>
-                    <p>Phone: (336) 267-6923</p>
+                    <p class="contact fs-2">Contact</p>
+                    <p class="email">Email: njheerschap@gmail.com</p>
+                    <p class="phone">Phone: (336) 267-6923</p>
                 </div>
             </div>
             </main>
         <!-- /Main Content -->
         <!-- Footer -->
         <footer>
-
+            <div class="container pb-3">
+                <div class="row justify-content-center">
+                    <div class="col-2 text-center">
+                        <a href="https://www.linkedin.com/in/nicholas-heerschap-a23bbb7b/" target="_blank">
+                            <img src="images/linkedin-icon.svg" alt="LinkedIn Icon" class="social">
+                        </a>
+                    </div>
+                    <div class="col-2 text-center">
+                        <a href="https://github.com/njheerschap" target="_blank">
+                            <img src="images/github-icon.svg" alt="GitHub Icon" class="social">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!-- /Footer -->  
 
