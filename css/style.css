@@ -1,0 +1,117 @@
+#intro {
+    background: url(../images/computer.jpg) no-repeat center center fixed;
+    background-color: rgb(237, 253, 239);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: none;
+}
+
+
+.landing-card {
+    background-color:rgba(208, 222, 255, 0.7);
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    border: none;
+}
+
+.headshot {
+    width: 200px;
+    height: 200px;
+    opacity: .85;
+}
+
+.scroll-arrow {
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
+}
+.scroll-arrow:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.mobile-profile {
+    border-radius: 50%;
+}
+
+.headshot {
+    border-radius: 50%;
+}
+
+#skills {
+    list-style: none;
+    color: white;
+}
+
+#skills li {
+    margin: 5px;
+}
+
+#skills :nth-child(odd) {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+#skills :nth-child(even) {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  background-color: rgb(236, 236, 236);
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.project-info {
+    height: 75px;
+}
+
+.caption {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 55px;
+    padding: 10px;
+}
+
+
+@media (min-width: 768px) {
+    /* html,
+    body,
+    header,
+    #intro {
+    height: 100%;
+    } */
+
+    #intro {
+        display: block;
+    }
+
+    .mobile-profile {
+        display: none;
+    }
+
+    #about {
+        padding-top: 4rem;
+    }
+}
