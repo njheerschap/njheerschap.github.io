@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
 }
 
 #intro {
@@ -62,7 +62,7 @@ body {
 
 .navbar {
     border-bottom: 1px solid black;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(208, 235, 249);
 }
 
 #skills {
@@ -154,7 +154,7 @@ body {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     #intro {
         display: block;
     }
