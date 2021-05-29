@@ -8,7 +8,7 @@
 
 
 .landing-card {
-    background-color:rgba(208, 222, 255, 0.7);
+    background-color:rgba(208, 235, 249, 0.7);
     text-shadow: 1px 1px 1px black;
     color: white;
     border: none;
@@ -38,9 +38,14 @@
     border-radius: 50%;
 }
 
+.navbar {
+    border-bottom: 1px solid black;
+    background-color: rgb(227, 227, 227);
+}
+
 #skills {
     list-style: none;
-    color: white;
+    color: black;
 }
 
 #skills li {
@@ -48,12 +53,12 @@
 }
 
 #skills :nth-child(odd) {
-    background-color: blue;
+    background-color: rgb(247, 235, 249);
     border-radius: 10px;
 }
 
 #skills :nth-child(even) {
-    background-color: orange;
+    background-color: rgb(208, 235, 249);
     border-radius: 10px;
 }
 
@@ -87,19 +92,38 @@ body {
 }
 
 .caption {
+    height: 1.85rem;
     text-decoration: none;
-    background-color: blue;
+    background-color: rgb(1, 5, 78);
     color: white;
-    border-radius: 55px;
-    padding: 10px;
+    border-radius: 10px;
+    font-size: .85rem;
+    padding: 5px;
+}
+
+.caption a {
+    
+}
+
+#contact-card {
+    background-color: rgb(208, 235, 249);
+    border: none;
 }
 
 .contact,
-.email,
-.phone  {
+.email, 
+.email a,
+.phone,
+.phone a  {
+    text-decoration: none;
+    color: black;
+}
+
+.email a:visited {
     text-decoration: none;
     color: white;
-} 
+}
+
 
 .social {
     width: 50px;
@@ -108,13 +132,6 @@ body {
 
 
 @media (min-width: 768px) {
-    /* html,
-    body,
-    header,
-    #intro {
-    height: 100%;
-    } */
-
     #intro {
         display: block;
     }
