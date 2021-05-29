@@ -18,3 +18,10 @@ const swiper = new Swiper('.swiper-container', {
       prevEl: '.swiper-button-prev',
     },
 });
+
+const arrow = document.querySelector(".scroll-arrow");
+const intro = document.querySelector('#intro');
+
+arrow.addEventListener('click', e => {
+  intro.remove();
+} )
